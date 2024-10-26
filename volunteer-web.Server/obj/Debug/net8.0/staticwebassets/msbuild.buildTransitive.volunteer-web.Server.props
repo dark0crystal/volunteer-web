@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\volunteer-web.Server.props" />
+</Project>

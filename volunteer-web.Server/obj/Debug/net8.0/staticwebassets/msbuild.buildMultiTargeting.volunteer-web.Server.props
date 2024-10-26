@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\volunteer-web.Server.props" />
+</Project>

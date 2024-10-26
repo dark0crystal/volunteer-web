@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "cdL34C/vIZ6il7VHXRXkY6ngztu0EoxZN7f25MpmIpc=",
+  "Source": "volunteer-web.Server",
+  "BasePath": "_content/volunteer-web.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\volunteer-web.client.esproj",
+      "Version": 2,
+      "Source": "volunteer-web.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\volunteer-web\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\App.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\App.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-26T12:39:01.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\main.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\main.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\main.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-26T12:38:58.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Properties\\launchSettings.json",
+              "RelativeToolTip": "volunteer-web.Server\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-26T12:33:19.499Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

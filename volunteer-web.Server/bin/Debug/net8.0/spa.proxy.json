@@ -1,0 +1,10 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "https://localhost:5173",
+"RedirectUrl": "",
+"LaunchCommand": "npm run dev",
+"WorkingDirectory": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\..\\volunteer-web.client",
+"MaxTimeoutInSeconds": "120",
+"KeepRunning": "false"
+}
+}
