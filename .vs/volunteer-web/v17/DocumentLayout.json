@@ -3,16 +3,156 @@
   "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\volunteer-web\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\controllers\\postscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\models\\savepostrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\models\\savepostrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\models\\addpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\models\\addpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\postdetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\components\\postdetails.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\dashboard\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\components\\dashboard\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\pages\\dashboard.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\models\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\eslint.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\about.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\pages\\about.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\vite.config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\razorfetch.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\components\\razorfetch.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\views\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\views\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\views\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\app.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\models\\postsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\models\\postsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\loginform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\components\\forms\\loginform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\volunteer-web.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\volunteer-web.server.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\pages\\login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\volunteering-register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\pages\\volunteering-register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\registerform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\components\\forms\\registerform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\card\\card.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\components\\card\\card.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\logtest.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\components\\forms\\logtest.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\volunteer-posts.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\pages\\volunteer-posts.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\pages\\register.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\main.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\volunteeringpostform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\components\\forms\\volunteeringpostform.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A75BE5E3-B0AE-4990-A27A-88A54EA2CEAE}|volunteer-web.Server\\volunteer-web.Server.csproj|solutionrelative:volunteer-web.server\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\test.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\src\\components\\forms\\test.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|c:\\users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B7864083-FA09-4867-98E5-3873F75117C1}|volunteer-web.client\\volunteer-web.client.esproj|solutionrelative:volunteer-web.client\\nuget.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,50 +162,483 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "App.jsx",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\App.jsx",
-              "RelativeDocumentMoniker": "volunteer-web.client\\src\\App.jsx",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\App.jsx",
-              "RelativeToolTip": "volunteer-web.client\\src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-26T12:39:01.818Z",
+              "Title": "PostsController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Controllers\\PostsController.cs",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Controllers\\PostsController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Controllers\\PostsController.cs",
+              "RelativeToolTip": "volunteer-web.Server\\Controllers\\PostsController.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAIwGMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:30:47.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.jsx",
-              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\main.jsx",
-              "RelativeDocumentMoniker": "volunteer-web.client\\src\\main.jsx",
-              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\main.jsx",
-              "RelativeToolTip": "volunteer-web.client\\src\\main.jsx",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Program.cs",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Program.cs",
+              "RelativeToolTip": "volunteer-web.Server\\Program.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAAAF4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T18:59:35.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\appsettings.Development.json",
+              "RelativeToolTip": "volunteer-web.Server\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2024-10-26T12:38:58.593Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T15:54:34.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "volunteer-web.Server\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAqwEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T13:16:19.148Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "AddPostModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Models\\AddPostModel.cs",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Models\\AddPostModel.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Models\\AddPostModel.cs",
+              "RelativeToolTip": "volunteer-web.Server\\Models\\AddPostModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T05:11:44.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SavePostRequestModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Models\\SavePostRequestModel.cs",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Models\\SavePostRequestModel.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Models\\SavePostRequestModel.cs",
+              "RelativeToolTip": "volunteer-web.Server\\Models\\SavePostRequestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T07:41:11.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dashboard.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\dashboard.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\pages\\dashboard.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\dashboard.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\pages\\dashboard.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-01T11:29:59.439Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Dashboard.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\dashboard\\Dashboard.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\components\\dashboard\\Dashboard.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\dashboard\\Dashboard.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\components\\dashboard\\Dashboard.jsx",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwCsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-02T07:30:40.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostDetails.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\PostDetails.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\components\\PostDetails.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\PostDetails.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\components\\PostDetails.jsx",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwGoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-01T11:55:56.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "volunteer-web.Server\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:21:02.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\App.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\App.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\App.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\App.jsx",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-30T16:57:54.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "volunteer-web.Server\\Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Properties\\launchSettings.json",
               "RelativeToolTip": "volunteer-web.Server\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-26T12:33:19.499Z",
+              "WhenOpened": "2024-11-02T06:13:55.929Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "eslint.config.js",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\eslint.config.js",
+              "RelativeDocumentMoniker": "volunteer-web.client\\eslint.config.js",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\eslint.config.js",
+              "RelativeToolTip": "volunteer-web.client\\eslint.config.js",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-30T16:44:37.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "vite.config.js",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\vite.config.js",
+              "RelativeDocumentMoniker": "volunteer-web.client\\vite.config.js",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\vite.config.js",
+              "RelativeToolTip": "volunteer-web.client\\vite.config.js",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-30T15:55:15.678Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Models\\UserModel.cs",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Models\\UserModel.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Models\\UserModel.cs",
+              "RelativeToolTip": "volunteer-web.Server\\Models\\UserModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T17:41:19.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "about.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\about.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\pages\\about.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\about.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\pages\\about.jsx",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-30T16:55:48.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "RazorFetch.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\RazorFetch.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\components\\RazorFetch.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\RazorFetch.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\components\\RazorFetch.jsx",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-01T18:24:23.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\README.md",
+              "RelativeDocumentMoniker": "volunteer-web.client\\README.md",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\README.md",
+              "RelativeToolTip": "volunteer-web.client\\README.md",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-10-31T15:36:21.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Views\\Index.cshtml",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Views\\Index.cshtml",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Views\\Index.cshtml",
+              "RelativeToolTip": "volunteer-web.Server\\Views\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T18:13:18.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PostsModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Models\\PostsModel.cs",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Models\\PostsModel.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Models\\PostsModel.cs",
+              "RelativeToolTip": "volunteer-web.Server\\Models\\PostsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T15:38:04.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Views\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Views\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Views\\Index.cshtml.cs",
+              "RelativeToolTip": "volunteer-web.Server\\Views\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T18:13:46.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "LoginForm.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\LoginForm.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\components\\forms\\LoginForm.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\LoginForm.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\components\\forms\\LoginForm.jsx",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-30T16:31:26.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\Models\\LoginModel.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\Models\\LoginModel.cs",
+              "RelativeToolTip": "volunteer-web.Server\\Models\\LoginModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T13:02:05.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "volunteer-web.Server.http",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\volunteer-web.Server.http",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\volunteer-web.Server.http",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\volunteer-web.Server.http",
+              "RelativeToolTip": "volunteer-web.Server\\volunteer-web.Server.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-10-30T16:43:48.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "login.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\login.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\pages\\login.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\login.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\pages\\login.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-30T16:58:08.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "volunteering-register.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\volunteering-register.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\pages\\volunteering-register.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\volunteering-register.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\pages\\volunteering-register.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-30T16:57:48.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "RegisterForm.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\RegisterForm.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\components\\forms\\RegisterForm.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\RegisterForm.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\components\\forms\\RegisterForm.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-31T13:23:14.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Card.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\card\\Card.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\components\\card\\Card.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\card\\Card.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\components\\card\\Card.jsx",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-30T16:37:58.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "LogTest.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\LogTest.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\components\\forms\\LogTest.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\LogTest.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\components\\forms\\LogTest.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-11-01T04:33:20.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "volunteer-posts.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\volunteer-posts.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\pages\\volunteer-posts.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\volunteer-posts.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\pages\\volunteer-posts.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-30T16:37:56.422Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "register.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\register.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\pages\\register.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\pages\\register.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\pages\\register.jsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-30T16:57:50.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "main.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\main.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\main.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\main.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\main.jsx",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-30T16:32:53.049Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "VolunteeringPostForm.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\VolunteeringPostForm.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\components\\forms\\VolunteeringPostForm.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\VolunteeringPostForm.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\components\\forms\\VolunteeringPostForm.jsx",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAQBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-30T16:58:29.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\appsettings.json",
+              "RelativeDocumentMoniker": "volunteer-web.Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.Server\\appsettings.json",
+              "RelativeToolTip": "volunteer-web.Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T15:54:27.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Test.jsx",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\Test.jsx",
+              "RelativeDocumentMoniker": "volunteer-web.client\\src\\components\\forms\\Test.jsx",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\src\\components\\forms\\Test.jsx",
+              "RelativeToolTip": "volunteer-web.client\\src\\components\\forms\\Test.jsx",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCYAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
+              "WhenOpened": "2024-10-31T13:30:11.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\package.json",
+              "RelativeDocumentMoniker": "volunteer-web.client\\package.json",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\package.json",
+              "RelativeToolTip": "volunteer-web.client\\package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T16:44:29.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\index.html",
+              "RelativeDocumentMoniker": "volunteer-web.client\\index.html",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\index.html",
+              "RelativeToolTip": "volunteer-web.client\\index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-10-30T16:33:12.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "nuget.config",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\nuget.config",
+              "RelativeDocumentMoniker": "volunteer-web.client\\nuget.config",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\volunteer-web\\volunteer-web.client\\nuget.config",
+              "RelativeToolTip": "volunteer-web.client\\nuget.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-30T16:44:28.214Z"
             }
           ]
         }

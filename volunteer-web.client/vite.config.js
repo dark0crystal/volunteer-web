@@ -46,8 +46,41 @@ export default defineConfig({
             '^/weatherforecast': {
                 target,
                 secure: false
-            }
+            },
+            '^/posts': {
+                target,
+                secure: false
+            },
+            '^/users': {
+                target,
+                secure: false
+            },
+            '^/user-applications': {
+                target,
+                secure: false
+            },
+            '^/volunteering-posts': {
+                target,
+                secure: false
+            },
+            '^/addpost': {
+                target,
+                secure: false
+            }, 
+            '^/login': {
+                target,
+                secure: false
+            }, '^/Home': {
+                target,
+                secure: false
+            }, '^/index': {
+                target,
+                secure: false
+            }, 
+
+
         },
+
         port: 5173,
         https: {
             key: fs.readFileSync(keyFilePath),

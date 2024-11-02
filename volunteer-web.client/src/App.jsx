@@ -1,49 +1,104 @@
-import { useEffect, useState } from 'react';
-import './App.css';
+
+import "bootstrap/dist/css/bootstrap.min.css";
+
+import vol1 from "./assets/vol1.jpeg"
+import vol2 from "./assets/vol2.jpeg"
+import vol3 from "./assets/vol3.jpeg"
+import { NavLink } from "react-router-dom";
 
 function App() {
-    const [forecasts, setForecasts] = useState();
+  return (
+    <div className="App">
 
-    useEffect(() => {
-        populateWeatherData();
-    }, []);
-
-    const contents = forecasts === undefined
-        ? <p><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationreact">https://aka.ms/jspsintegrationreact</a> for more details.</em></p>
-        : <table className="table table-striped" aria-labelledby="tableLabel">
-            <thead>
-                <tr>
-                    <th>Date</th>
-                    <th>Temp. (C)</th>
-                    <th>Temp. (F)</th>
-                    <th>Summary</th>
-                </tr>
-            </thead>
-            <tbody>
-                {forecasts.map(forecast =>
-                    <tr key={forecast.date}>
-                        <td>{forecast.date}</td>
-                        <td>{forecast.temperatureC}</td>
-                        <td>{forecast.temperatureF}</td>
-                        <td>{forecast.summary}</td>
-                    </tr>
-                )}
-            </tbody>
-        </table>;
-
-    return (
-        <div>
-            <h1 id="tableLabel">Weather forecast</h1>
-            <p>This component demonstrates fetching data from the server.</p>
-            {contents}
+      {/* Hero Section */}
+      <div className="bg-light text-dark mt-5 text-center py-5">
+        <div className="container">
+          <h1 className="display-4">Make a Difference in Your Community</h1>
+          <p className="lead">
+            Join us in our mission to create a positive impact by volunteering
+            for local causes.
+          </p>
+          <NavLink className="btn btn-primary btn-lg mt-3" to="/volunteer-posts">
+            Let's Volunteer
+          </NavLink>
+          {/* <a className="btn btn-primary btn-lg mt-3" href="#">
+            Get Started
+          </a> */}
         </div>
-    );
-    
-    async function populateWeatherData() {
-        const response = await fetch('weatherforecast');
-        const data = await response.json();
-        setForecasts(data);
-    }
+      </div>
+
+      {/* About Section */}
+      <section className="py-5">
+        <div className="container text-center">
+          <h2>Why Volunteer?</h2>
+          <p className="lead">
+            Volunteering is an opportunity to give back to your community,
+            support causes you care about, and gain valuable experiences.
+          </p>
+        </div>
+      </section>
+
+    {/* Featured Opportunities */}
+<section className="bg-light py-5">
+  <div className="container">
+    <h2 className="text-center">Motivational Volunteering Advice</h2>
+    <div className="row mt-4">
+      <div className="col-md-4">
+        <div className="card mb-4">
+          <img
+            src={vol1}
+            className="card-img-top"
+            alt="Opportunity 1"
+          />
+          <div className="card-body">
+            <h5 className="card-title">"Small Acts, Big Impact"</h5>
+            <p className="card-text">
+              Remember, even the smallest acts of kindness can create ripples
+              of change. Your efforts, no matter how small, matter greatly.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div className="card mb-4">
+          <img
+            src={vol2}
+            className="card-img-top"
+            alt="Opportunity 2"
+          />
+          <div className="card-body">
+            <h5 className="card-title">"Be the Change You Wish to See"</h5>
+            <p className="card-text">
+              Volunteering allows you to become a living example of the positive
+              change you want to see in the world. Step forward and inspire others!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-4">
+        <div className="card mb-4">
+          <img
+            src={vol3}
+            className="card-img-top"
+            alt="Opportunity 3"
+          />
+          <div className="card-body">
+            <h5 className="card-title">"A Helping Hand, A Better World"</h5>
+            <p className="card-text">
+              The simple act of helping others brings joy, strengthens
+              communities, and makes the world a better place to live in.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+      
+    </div>
+  );
 }
 
 export default App;
