@@ -5,8 +5,6 @@
 
         public string title { get; set; }
         public PostCategory category { get; set; }
-
-        public string postAdminEmail { get; set; }
         public string description { get; set; }
         public int numOfDays { get; set; }
         public string location { get; set; }

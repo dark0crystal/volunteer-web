@@ -2,7 +2,7 @@
 {
     public class SavePostRequestModel
     {
-        public int PostId { get; set; } 
+        public int postId { get; set; } 
         public string email { get; set; }
     }
 }

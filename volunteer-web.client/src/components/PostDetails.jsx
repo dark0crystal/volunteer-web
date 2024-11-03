@@ -5,18 +5,16 @@ export default function PostDetails() {
     const { postId } = useParams();
     const [details, setDetails] = useState(null);
     const [error, setError] = useState(null);
-    const [userEmail, setUserEmail] = useState(''); // State to hold user email
-    const [successMessage, setSuccessMessage] = useState(''); // State for success message
+    const [successMessage, setSuccessMessage] = useState('');
 
     useEffect(() => {
         async function getDetail() {
             try {
-                const res = await fetch(`https://localhost:7149/Posts/post-details`, {
-                    method: "POST",
+                const res = await fetch(`https://localhost:7149/Posts/post-details/${postId}`, {
+                    method: "GET",
                     headers: {
                         "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify(parseInt(postId)), // Convert postId to integer
+                    }
                 });
 
                 if (!res.ok) {
@@ -37,10 +35,11 @@ export default function PostDetails() {
         try {
             const res = await fetch('https://localhost:7149/Posts/save-post', {
                 method: "POST",
+                credentials: "include", // Includes cookies and session data
                 headers: {
                     "Content-Type": "application/json",
                 },
-                body: JSON.stringify({ email: userEmail, postId: parseInt(postId) }), // Send email and postId
+                body: JSON.stringify( parseInt(postId) ) // Send postId in the expected format
             });
 
             if (!res.ok) {
@@ -48,7 +47,7 @@ export default function PostDetails() {
             }
 
             const message = await res.text();
-            setSuccessMessage(message); // Set success message
+            setSuccessMessage(message);
         } catch (err) {
             setError(err.message);
         }
@@ -76,25 +75,10 @@ export default function PostDetails() {
                     <p className="card-text"><strong>End Date:</strong> {details.endDate}</p>
                     <p className="card-text"><strong>Number of Days:</strong> {details.numOfDays}</p>
 
-                    {/* Input for user email */}
-                    <div className="mb-3">
-                        <label htmlFor="userEmail" className="form-label">Your Email:</label>
-                        <input
-                            type="email"
-                            className="form-control"
-                            id="userEmail"
-                            value={userEmail}
-                            onChange={(e) => setUserEmail(e.target.value)}
-                            required
-                        />
-                    </div>
-
-                    {/* Button to save post */}
                     <button className="btn btn-primary" onClick={handleSavePost}>
                         Save Post
                     </button>
 
-                    {/* Display success message */}
                     {successMessage && <div className="alert alert-success mt-3">{successMessage}</div>}
                 </div>
                 <div className="card-footer text-muted">

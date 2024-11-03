@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function LoginForm() {
@@ -7,12 +7,12 @@ export default function LoginForm() {
     const [formErrors, setFormErrors] = useState({ email: "", password: "" });
     const [isLoading, setIsLoading] = useState(false);
     const [submittedUsers, setSubmittedUsers] = useState([]);
+    const navigate = useNavigate(); // Initialize navigate hook
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         setIsLoading(true);
 
-        // Final validation check
         const isFormValid =
             Object.values(formErrors).every((error) => error === "") &&
             formData.email.trim() !== "" &&
@@ -20,25 +20,22 @@ export default function LoginForm() {
 
         if (isFormValid) {
             try {
-                // Make a POST request to the backend API to check credentials
                 const response = await fetch("https://localhost:7149/Users/login", {
                     method: "POST",
-                    headers: {
-                        "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({ Email: formData.email, Password: formData.password }), // Send as an object
-                })
+                    headers: { "Content-Type": "application/json" },
+                    credentials: "include", // Ensure cookies are included in the request
+                    body: JSON.stringify({ Email: formData.email, Password: formData.password })
+                });
 
                 const data = await response.json();
 
                 if (response.ok) {
                     console.log("Login successful!");
-                    // Add the submitted form data to the list
                     setSubmittedUsers((prevUsers) => [...prevUsers, formData]);
-                }
-                else {
+                  
+                } else {
                     console.log("Login failed:", data);
-                    setFormErrors({ email: data.message, password: "" }); // Display error message
+                    setFormErrors({ email: data.message, password: "" });
                 }
             } catch (error) {
                 console.error("Error during login:", error);
@@ -56,7 +53,6 @@ export default function LoginForm() {
             [name]: value,
         }));
 
-        // Validate the input
         if (name === "email" && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value)) {
             setFormErrors((prevState) => ({
                 ...prevState,
@@ -70,7 +66,7 @@ export default function LoginForm() {
         } else {
             setFormErrors((prevState) => ({
                 ...prevState,
-                [name]: "", // Reset error message
+                [name]: "",
             }));
         }
     };
@@ -87,9 +83,7 @@ export default function LoginForm() {
                     <h3 className="card-title text-center mb-4">Login</h3>
                     <form onSubmit={handleSubmit}>
                         <div className="mb-3">
-                            <label htmlFor="email" className="form-label">
-                                Email
-                            </label>
+                            <label htmlFor="email" className="form-label">Email</label>
                             <input
                                 type="email"
                                 id="email"
@@ -103,9 +97,7 @@ export default function LoginForm() {
                         </div>
 
                         <div className="mb-3">
-                            <label htmlFor="password" className="form-label">
-                                Password
-                            </label>
+                            <label htmlFor="password" className="form-label">Password</label>
                             <input
                                 type="password"
                                 id="password"
@@ -128,11 +120,8 @@ export default function LoginForm() {
                     </form>
 
                     <div className="mt-4 text-center">
-                        <p>
-                            Don't have an account?{" "}
-                            <NavLink to="/register" className="text-decoration-none">
-                                Register
-                            </NavLink>
+                        <p>Don't have an account?{" "}
+                            <NavLink to="/register" className="text-decoration-none">Register</NavLink>
                         </p>
                     </div>
 
@@ -155,3 +144,4 @@ export default function LoginForm() {
         </div>
     );
 }
+

@@ -9,7 +9,7 @@ const initialFormState = {
     startDate: '',
     endDate: '',
     numOfDays: '',
-    postAdminEmail: 'user@gmail.com' // Default email for the admin
+    // postAdminEmail is removed
 };
 
 const VolunteeringPostForm = () => {
@@ -18,7 +18,6 @@ const VolunteeringPostForm = () => {
     const [isLoading, setIsLoading] = useState(false);
     const [submittedEvents, setSubmittedEvents] = useState([]);
 
-    // Map categories to their corresponding enum values (0, 1, 2, ...)
     const categories = [
         { label: 'Education', value: 0 },
         { label: 'Environment', value: 1 },
@@ -73,13 +72,13 @@ const VolunteeringPostForm = () => {
         console.log('Form Data before submission:', formData);
 
         if (isFormValid) {
-            // Convert category string to integer
             const categoryInt = parseInt(formData.category, 10);
             const dataToSubmit = { ...formData, category: categoryInt };
 
             try {
                 const response = await fetch('https://localhost:7149/Posts/addpost', {
                     method: 'POST',
+                    credentials: "include", // Includes cookies and session data
                     headers: {
                         'Content-Type': 'application/json',
                     },
@@ -219,19 +218,6 @@ const VolunteeringPostForm = () => {
                         onChange={handleInputChange}
                     />
                     {formErrors.numOfDays && <div className="invalid-feedback">{formErrors.numOfDays}</div>}
-                </div>
-
-                {/* Post Admin Email Field */}
-                <div className="mb-3">
-                    <label htmlFor="postAdminEmail" className="form-label">Admin Email:</label>
-                    <input
-                        type="email"
-                        name="postAdminEmail"
-                        className={`form-control ${formErrors.postAdminEmail ? 'is-invalid' : ''}`}
-                        value={formData.postAdminEmail}
-                        onChange={handleInputChange}
-                    />
-                    {formErrors.postAdminEmail && <div className="invalid-feedback">{formErrors.postAdminEmail}</div>}
                 </div>
 
                 {/* Submit Button */}

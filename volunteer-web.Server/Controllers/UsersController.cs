@@ -47,6 +47,11 @@ namespace volunteer_web.Server.Controllers
                 return Unauthorized("Invalid email or password.");
             }
 
+            // Set session data
+            HttpContext.Session.SetInt32("UserId", existingUser.id);
+            HttpContext.Session.SetString("UserEmail", existingUser.email);
+            HttpContext.Session.SetString("UserName", existingUser.firstName);
+
             // Set cookie for the logged-in user
             var cookieOptions = new CookieOptions
             {
@@ -62,7 +67,14 @@ namespace volunteer_web.Server.Controllers
         [HttpPost("logout")]
         public IActionResult Logout()
         {
+            // Remove session data
+            HttpContext.Session.Remove("UserId");
+            HttpContext.Session.Remove("UserEmail");
+            HttpContext.Session.Remove("UserName");
+
+            // Delete cookie
             Response.Cookies.Delete("UserEmail");
+
             return Ok("Logged out successfully.");
         }
 
@@ -72,6 +84,22 @@ namespace volunteer_web.Server.Controllers
         {
             return Ok(Users);
         }
+
+        // Check if user is logged in (for dashboard)
+        [HttpGet("isLoggedIn")]
+        public IActionResult IsLoggedIn()
+        {
+            var userId = HttpContext.Session.GetInt32("UserId");
+
+            if (userId.HasValue)
+            {
+                var userEmail = HttpContext.Session.GetString("UserEmail");
+                var userName = HttpContext.Session.GetString("UserName");
+
+                return Ok(new { isLoggedIn = true, userId, userEmail, userName });
+            }
+
+            return Unauthorized(new { isLoggedIn = false });
+        }
     }
 }
-
