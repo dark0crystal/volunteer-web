@@ -15,6 +15,7 @@ import VolunteeringRegister from './pages/volunteering-register';
 import Footer from './components/Footer';
 import PostDetails from './components/PostDetails';
 import Dashboard from './pages/dashboard';
+import Complaints from './pages/complaints';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -33,7 +34,8 @@ root.render(
     <Route path='/volunteering-register' element={<VolunteeringRegister/>}/>
     <Route path='/volunteer-posts' element={<VolunteerPost/>}/>
     <Route path="/volunteer-posts/:postId" element={<PostDetails />} />
-     <Route path="/dashboard" element={<Dashboard/>} />
+    <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/complaints" element={<Complaints />} />
     
   </Routes>
   <Footer/>

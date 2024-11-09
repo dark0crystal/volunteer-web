@@ -32,6 +32,7 @@ export default function LoginForm() {
                 if (response.ok) {
                     console.log("Login successful!");
                     setSubmittedUsers((prevUsers) => [...prevUsers, formData]);
+                    navigate("/dashboard"); // Redirect to the dashboard
                   
                 } else {
                     console.log("Login failed:", data);

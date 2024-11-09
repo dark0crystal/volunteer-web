@@ -43,7 +43,7 @@ export default function PostDetails() {
             });
 
             if (!res.ok) {
-                throw new Error("Failed to save post");
+                throw new Error("Failed , you're not logged in");
             }
 
             const message = await res.text();
@@ -76,7 +76,7 @@ export default function PostDetails() {
                     <p className="card-text"><strong>Number of Days:</strong> {details.numOfDays}</p>
 
                     <button className="btn btn-primary" onClick={handleSavePost}>
-                        Save Post
+                        Volunteer
                     </button>
 
                     {successMessage && <div className="alert alert-success mt-3">{successMessage}</div>}

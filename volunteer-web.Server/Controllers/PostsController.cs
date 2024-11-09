@@ -123,7 +123,7 @@ namespace volunteer_web.Server.Controllers
                 postId = PostId
             });
 
-            return Ok("Post relation saved successfully.");
+            return Ok("You're successfully added");
         }
 
         [HttpGet("user-volunteering")]

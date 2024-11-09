@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace volunteer_web.Server.Controllers
 {
@@ -12,5 +13,26 @@ namespace volunteer_web.Server.Controllers
         {
             return View();
         }
+
+        // GET: /Home/AboutPage
+        [HttpGet("AboutPage")]
+        public IActionResult GetAboutPage()
+        {
+            return View("~/Views/Index.cshtml");
+        }
+
+        
+        [HttpGet("ComplaintsPage")]
+        public IActionResult GetComplaintsPage()
+        {
+            return View("~/Views/ComplaintsPage.cshtml");
+        }
+
+
+
+
+
     }
+
+
 }

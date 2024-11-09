@@ -1,8 +1,7 @@
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
-builder.Services.AddControllers();
+builder.Services.AddControllersWithViews();  // Change this line to include view support
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -45,7 +44,8 @@ app.UseSession();
 // Set up authorization
 app.UseAuthorization();
 
-// Map controllers
+// Map controllers and enable default route to support MVC actions if needed
 app.MapControllers();
+app.MapDefaultControllerRoute(); // Enable MVC default routing for views
 
 app.Run();
