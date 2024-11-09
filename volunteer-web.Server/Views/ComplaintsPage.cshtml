@@ -1,0 +1,47 @@
+﻿@model volunteer_web.Server.Views.ComplaintsPageModel
+@{
+    ViewData["Title"] = "Complaints";
+}
+
+<h2>Submit a Complaint</h2>
+
+<form method="post" action="https://localhost:7149/api/complaints/SubmitComplaint">
+    <div class="form-group">
+        <label asp-for="PostId">Post ID</label>
+        <input asp-for="PostId" class="form-control" placeholder="Enter Post ID" />
+        <span asp-validation-for="PostId" class="text-danger"></span> <!-- Validation message -->
+    </div>
+
+    <div class="form-group mt-3">
+        <label>Type of Complaint</label>
+        <div class="form-check">
+            <input asp-for="ComplaintType" type="radio" id="spam" value="Spam" class="form-check-input" />
+            <label class="form-check-label" for="spam">Spam</label>
+        </div>
+        <div class="form-check">
+            <input asp-for="ComplaintType" type="radio" id="inappropriate" value="Inappropriate Content" class="form-check-input" />
+            <label class="form-check-label" for="inappropriate">Inappropriate Content</label>
+        </div>
+        <div class="form-check">
+            <input asp-for="ComplaintType" type="radio" id="misleading" value="Misleading Information" class="form-check-input" />
+            <label class="form-check-label" for="misleading">Misleading Information</label>
+        </div>
+        <span asp-validation-for="ComplaintType" class="text-danger"></span> <!-- Validation message -->
+    </div>
+
+    <div class="form-group mt-3">
+        <label asp-for="ComplaintText">Your Complaint</label>
+        <textarea asp-for="ComplaintText" class="form-control" rows="5" placeholder="Write your complaint here"></textarea>
+        <span asp-validation-for="ComplaintText" class="text-danger"></span> <!-- Validation message -->
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-3">Submit Complaint</button>
+</form>
+
+<!-- Validation Summary -->
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Include jQuery Validation -->
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"/>
+<script src="https://cdn.jsdelivr.net/npm/jquery-validation-unobtrusive@3.2.11/dist/jquery.validate.unobtrusive.min.js"/>
