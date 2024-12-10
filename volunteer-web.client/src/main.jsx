@@ -35,7 +35,7 @@ root.render(
     <Route path='/volunteer-posts' element={<VolunteerPost/>}/>
     <Route path="/volunteer-posts/:postId" element={<PostDetails />} />
     <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/complaints" element={<Complaints />} />
+    <Route path="/complaints/:postId" element={<Complaints />} />
     
   </Routes>
   <Footer/>

@@ -6,7 +6,6 @@ export default function NavLinks() {
   const navlinks = [
     { destination: "/about", name: "About" },
       { destination: "/volunteer-posts", name: "Posts" },
-      { destination: "/complaints", name: "Complaints" },
       { destination: "/dashboard", name: "Dashboard" },
       { destination: "/login", name: "Login" },
     { destination: "/volunteering-register", name: "Want Voluteers?" ,styling:"bg-success rounded-pill p-3 " },

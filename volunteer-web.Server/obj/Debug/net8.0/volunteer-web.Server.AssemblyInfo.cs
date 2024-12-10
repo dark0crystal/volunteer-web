@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("volunteer-web.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f6d5fcd7d936db2876f9a66f584dc973d9e012f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc30b130bba21dafe39950bcf3cdd55ffe099bb6")]
 [assembly: System.Reflection.AssemblyProductAttribute("volunteer-web.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("volunteer-web.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

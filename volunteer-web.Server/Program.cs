@@ -1,7 +1,21 @@
+
+using Microsoft.EntityFrameworkCore;
+using volunteer_web.Server.Data;
 var builder = WebApplication.CreateBuilder(args);
 
+
+
+//builder.Services.AddDbContext<DbMydataContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("DB1")));
+builder.Services.AddDbContext<MasterContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DB1")));
+
+Console.WriteLine($"Connection String: {builder.Configuration.GetConnectionString("DB1")}");
 // Add services to the container
 builder.Services.AddControllersWithViews();  // Change this line to include view support
+////builder.Services.AddDbContext<VolunteerDbContext>(options =>
+////options.useimmem
+//);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -10,10 +24,10 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowSpecificOrigin", policyBuilder =>
     {
-        policyBuilder.WithOrigins("https://localhost:5173") // Replace with your frontend URL
+        policyBuilder.WithOrigins("https://localhost:5173") 
                      .AllowAnyHeader()
                      .AllowAnyMethod()
-                     .AllowCredentials(); // Important for cookies
+                     .AllowCredentials(); 
     });
 });
 
@@ -28,6 +42,7 @@ builder.Services.AddSession(options =>
 
 var app = builder.Build();
 
+string db1 = app.Configuration.GetConnectionString("DB1");
 // Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {

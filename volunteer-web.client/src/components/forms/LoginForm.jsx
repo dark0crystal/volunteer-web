@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function LoginForm() {
@@ -7,7 +7,7 @@ export default function LoginForm() {
     const [formErrors, setFormErrors] = useState({ email: "", password: "" });
     const [isLoading, setIsLoading] = useState(false);
     const [submittedUsers, setSubmittedUsers] = useState([]);
-    const navigate = useNavigate(); // Initialize navigate hook
+   
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -32,7 +32,7 @@ export default function LoginForm() {
                 if (response.ok) {
                     console.log("Login successful!");
                     setSubmittedUsers((prevUsers) => [...prevUsers, formData]);
-                    navigate("/dashboard"); // Redirect to the dashboard
+                   
                   
                 } else {
                     console.log("Login failed:", data);

@@ -1,0 +1,79 @@
+
+
+
+
+CREATE TABLE [dbo].[register] (
+    [id]         INT          IDENTITY (1, 1) NOT NULL,
+    [firstName]  VARCHAR (12) NOT NULL,
+    [familyName] VARCHAR (12) NOT NULL,
+    [email]      VARCHAR (50) NOT NULL,
+    [password]   VARCHAR (12) NOT NULL,
+    CONSTRAINT [PK_register] PRIMARY KEY CLUSTERED ([id] ASC, [email] ASC),
+    CHECK (len([firstName])>(0)),
+    CHECK (len([familyName])>(0)),
+    CHECK ([email] like '%@%'),
+    CHECK (len([password])>=(8))
+);
+
+
+INSERT INTO [dbo].[register] (firstName, familyName, email, password)
+VALUES 
+('Mohamed', 'AlAli', 'mohamed@example.com', 'StrongPass1'),
+('Fatima', 'AlHashmi', 'fatima@example.com', 'SecurePass9'),
+('Ali', 'AlKazemi', 'ali@example.com', 'AliPower10');
+
+
+
+
+
+CREATE TABLE [dbo].[VolunteeringPosts] (
+    [Id]             INT            IDENTITY (1, 1) NOT NULL,
+    [Title]          NVARCHAR (100) NOT NULL,
+    [Category]       NVARCHAR (50)  NOT NULL,
+    [Description]    NVARCHAR (500) NOT NULL,
+    [NumOfDays]      INT            NOT NULL,
+    [Location]       NVARCHAR (100) NOT NULL,
+    [OrgName]        NVARCHAR (100) NOT NULL,
+    [StartDate]      DATE           NULL,
+    [EndDate]        DATE           NULL,
+    [PostAdminEmail] VARCHAR (50)   NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CHECK (len([Title])>(0)),
+    CHECK (len([Category])>(0)),
+    CHECK (len([Description])>(0)),
+    CHECK ([NumOfDays]>(0)),
+    CHECK (len([Location])>(0)),
+    CHECK (len([OrgName])>(0)),
+    CHECK ([PostAdminEmail] like '%@%')
+);
+
+
+
+INSERT INTO [dbo].[VolunteeringPosts] (Title, Category, Description, NumOfDays, Location, OrgName, StartDate, EndDate, PostAdminEmail)
+VALUES 
+('Tanzeef AlShate', 'Environment', 'Saedna fi tanzeef alshate wa hemayat alhaya albahriya.', 2, 'Hadeeqat AlShate', 'Munathamat AlArd AlKhadhra', '2024-12-15', '2024-12-16', 'admin@greenearth.org'),
+('Zeraat AlAshjar', 'Environment', 'Intham ma’na lizeraat alashjar fi alhadeeqa alama.', 1, 'AlHadeeqa AlAma', 'Muhaariboo AlBeea', '2024-12-20', NULL, 'contact@ecowarriors.org'),
+('Mukhem Sehhi', 'Health', 'Sahem fi tanzeem mukhem sehhi majani lilmujtama.', 3, 'AlMarkaz AlMujtamaai', 'Musaadat AlSeha', '2024-12-10', '2024-12-12', 'info@healthaid.org');
+
+
+
+
+
+CREATE TABLE [dbo].[Complaints] (
+    [id]            INT            IDENTITY (1, 1) NOT NULL,
+    [PostId]        INT            NOT NULL,
+    [ComplaintType] NVARCHAR (100) NOT NULL,
+    [ComplaintText] NVARCHAR (MAX) NOT NULL,
+    PRIMARY KEY CLUSTERED ([id] ASC),
+    CONSTRAINT [FK_Complaints_Post] FOREIGN KEY ([PostId]) REFERENCES [dbo].[VolunteeringPosts] ([Id])
+);
+
+
+
+INSERT INTO [dbo].[Complaints] (PostId, ComplaintType, ComplaintText)
+VALUES 
+(1, 'Mushkila Lojistiya', 'Wajah almotatawaoon mushakil fi alnaql ila almawqea.'),
+(2, 'Makhawif Tataleq Bilsalama', 'Lam yatam tawfeer tadabeer alsalama khilal alnashat.'),
+(3, 'Mushkila Tanzeemiya', 'Suu altanseeq wa naqs almadaad altibiya.');
+
+
